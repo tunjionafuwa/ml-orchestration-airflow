@@ -10,3 +10,6 @@ source ~/.bashrc
 
 echo "####################### INSTALLING REQUIREMENTS #######################"
 pip install -r requirements.txt
+
+echo "####################### INSTALLING DEV REQUIREMENTS #######################"
+pip install -r dev_requirements.txt
