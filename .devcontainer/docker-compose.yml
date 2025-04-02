@@ -5,4 +5,6 @@ services:
       dockerfile: ../.devcontainer/Dockerfile
     volumes:
       - ..:/workspace:cached
+    env_file:
+      - ../.devcontainer/.env
     command: sleep infinity
